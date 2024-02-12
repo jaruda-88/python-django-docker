@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-e_&45wtweo*dbubyvy3!mpa03td8i@m+666g)nxs7!n&tx+t!&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# beanstalk eb status : CNAME
+# beanstalk -> eb status -> CNAME 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'bookstore-dev.ap-northeast-2.elasticbeanstalk.com']
 
 # Application definition
@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',ƒa
+    'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
